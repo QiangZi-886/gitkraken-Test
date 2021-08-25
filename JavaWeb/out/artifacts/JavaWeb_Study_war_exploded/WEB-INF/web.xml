@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>RequestAPIServlet</servlet-name>
+        <servlet-class>RequestAPIServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestAPIServlet</servlet-name>
+        <url-pattern>/requestAPIServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ParameterServlet</servlet-name>
+        <servlet-class>ParameterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParameterServlet</servlet-name>
+        <url-pattern>/parameterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>MyStudy.Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>MyStudy.Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForwardC</servlet-name>
+        <servlet-class>MyStudy.ForwardC</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForwardC</servlet-name>
+        <url-pattern>/forwardC</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResponseIOServlet</servlet-name>
+        <servlet-class>MyStudy.ResponseIOServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseIOServlet</servlet-name>
+        <url-pattern>/responseIOServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Response1</servlet-name>
+        <servlet-class>MyStudy.Response1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Response1</servlet-name>
+        <url-pattern>/response1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Response2</servlet-name>
+        <servlet-class>MyStudy.Response2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Response2</servlet-name>
+        <url-pattern>/response2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>Cookie_session.CookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/cookieServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>Cookie_session.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>Cookie_session.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/sessionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReqServlet1</servlet-name>
+        <servlet-class>homeWork.ReqServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReqServlet1</servlet-name>
+        <url-pattern>/reqServlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReqServlet2</servlet-name>
+        <servlet-class>homeWork.ReqServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReqServlet2</servlet-name>
+        <url-pattern>/reqServlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionLogin</servlet-name>
+        <servlet-class>homeWork.SessionLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionLogin</servlet-name>
+        <url-pattern>/sessionLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormServlet</servlet-name>
+        <servlet-class>homeWork.FormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormServlet</servlet-name>
+        <url-pattern>/formServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormServletTest</servlet-name>
+        <servlet-class>homeWork.FormServletTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormServletTest</servlet-name>
+        <url-pattern>/formServletTest</url-pattern>
+    </servlet-mapping>
+    
+<!--    <error-page>-->
+<!--        <error-code>404</error-code>-->
+<!--        <location>/homeWork/404.jsp</location>-->
+<!--    </error-page>-->
+
+<!--    <error-page>-->
+<!--        <error-code>500</error-code>-->
+<!--        <location>/homeWork/500.jsp</location>-->
+<!--    </error-page>-->
+
+    <servlet>
+        <servlet-name>SearchStudentServlet</servlet-name>
+        <servlet-class>homeWork.SearchStudentServelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchStudentServlet</servlet-name>
+        <url-pattern>/searchStudentServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>MyStudy.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/uploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--filter标签用于配置一个filter过滤器-->
+    <filter>
+        <!--给filter起一个别名-->
+        <filter-name>AdminFilter</filter-name>
+        <!--配置filter全类名-->
+        <filter-class>Filter.AdminFilter</filter-class>
+    </filter>
+    <!--filter-mapping 配置Filter类的拦截路径-->
+    <filter-mapping>
+        <!--filter-name表示当前的拦截路径给哪个filter使用-->
+        <filter-name>AdminFilter</filter-name>
+        <!--配置拦截路径
+            / 表示请求的地址为：http://ip:port/工程路径/     映射到IDEA的web目录下
+            /admin/*表示：http://ip:port/工程路径/admin/*  目录下的全部资源
+        -->
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+    
+    <servlet>
+        <servlet-name>FilterLoginServlet</servlet-name>
+        <servlet-class>Filter.FilterLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FilterLoginServlet</servlet-name>
+        <url-pattern>/filterLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>homeWork.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/myServlet</url-pattern>
+    </servlet-mapping>
+    <filter>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>homeWork.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/myServlet</url-pattern>
+    </filter-mapping>
+
+</web-app>
