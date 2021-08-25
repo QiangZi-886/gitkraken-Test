@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookie_Session</title>
+    <base href="http://localhost:8080/JavaWeb_Study/">
+</head>
+<body>
+<iframe name="target" width="500" height="500" style="float: left;"></iframe>
+<div style="float: left;">
+    <ul>
+        <li><a href="cookieServlet?action=createCookie" target="target">Cookie的创建</a></li>
+        <li><a href="cookieServlet?action=getCookie" target="target">Cookie的获取</a></li>
+        <li><a href="cookieServlet?action=updateCookie" target="target">Cookie值的修改</a></li>
+        <li>Cookie的存活周期</li>
+        <li>
+            <ul>
+                <li><a href="cookieServlet?action=defaultCookieLife" target="target">Cookie的默认存活时间（会话）</a></li>
+                <li><a href="cookieServlet?action=deleteCookieNow" target="target">Cookie立即删除</a></li>
+                <li><a href="cookieServlet?action=cookieLife3600" target="target">Cookie存活3600秒（1小时）</a></li>
+            </ul>
+        </li>
+        <li><a href="cookieServlet?action=testPath" target="target">Cookie的路径设置</a></li>
+        <li><a href="" target="target">Cookie的用户免登录练习</a></li>
+    </ul>
+</div>
+</body>
+</html>
